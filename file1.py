@@ -19,4 +19,4 @@ for file in file_list:
         for row in updated_data:
             csv_writer.writerow(row)
 
-print(len(updated_data))
+print((updated_data))
